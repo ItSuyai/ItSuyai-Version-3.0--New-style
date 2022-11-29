@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project ItSuyai</title>
+	<link rel="icon" href="img/icon.ico">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+	<link rel="stylesheet" type="text/css" href="styles-project1.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/633f603d95.js" crossorigin="anonymous"></script>
+	<meta name="author" content="Suyai">
+</head>
+<body class="">
+	<div class="intro">
+        <h1 class="intro--conteiner">
+            <span class="logo-parts">S</span>
+            <span class="logo-parts">U</span>
+            <span class="logo-parts">Y</span>
+            <span class="logo-parts">A</span>
+            <span class="logo-parts">I</span>
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="1000"><i>Junior and Front-end Developer</i></p>
+    </div>
+    <header class="section--navigation">
+		<section class="navigation">
+			<a href="index-en.html" class="logo"><img id="logo" src="img/logo.png"></a>
+			<div class="navigation__bar">
+				<div class="navigation__button">
+				<div class="mode">
+					<i class="fa-solid fa-circle-half-stroke" id="mode"></i>
+				</div>
+				<div class="language-menu">
+					<label for="language-menu"><i class="fa-solid fa-earth-americas"></i></label>
+				</div>
+				<div class="btn-menu">
+					<label for="btn-menu"><i class="fa-sharp fa-solid fa-bars"></i></label>
+				</div>
+				</div>
+			</div>
+		</section>
+	</header>
+	<input type="checkbox" id="language-menu">
+		<div class="container-language">
+			<div class="card--language">
+				<nav>
+					<a href="project1-en.html">English</a>
+					<a href="project1.html">Español</a>
+				</nav>
+				<label for="language-menu"><i class="fa-solid fa-xmark"></i></label>
+			</div>
+		</div>
+	<input type="checkbox" id="btn-menu">
+		<div class="container-menu">
+			<div class="card--menu">
+				<nav>
+					<a href="#home">Home</a>
+					<a href="#colors">Colors</a>
+					<a href="#slider">Images</a>
+				</nav>
+				<label for="btn-menu"><i class="fa-solid fa-xmark"></i></label>
+			</div>
+		</div>
+        <section class="content" id="home">
+			<div class="information">
+				<h2>ItSuyai</h2>
+				<p>ItSuyai is my first website, it is a portfolio created in order to make myself known and grow in this industry. I started developing the web in July in my spare time and with little knowledge. This website uses the <a href="https://michalsnik.github.io/aos/"><strong>AOS</strong></a> and <a href="https://nickpiscitelli.github.io/Glider.js/"><strong>Glider.js</strong></a> libraries to improve certain things.</p>
+			</div>
+			<section class="link">
+				<div class="link__conteiner">
+					<ul>
+					<li><a id="web" href="https://itsuyai.ga"><span>Web</span></a></li>
+						<li><a href="https://github.com/ItSuyai"><span>Codigo</span></a></li>
+					</ul>
+				</div>
+			</section>
+			<div class="title__colors" id="colors">
+				<h2>#Colors <span>{</span></h2>
+			</div>
+			<article>
+				<div class="colors">
+					<h3>Color palette:</h3>
+					<div class="colors--conteiner">
+						<div class="color" id="color1"></div>
+						<div class="color" id="color2"></div>
+						<div class="color" id="color3"></div>
+						<div class="color" id="color4"></div>
+						<div class="color" id="color5"></div>
+					</div>
+				</div>
+			</article>
+			<div class="end__colors">
+				<h2>}</h2>
+			</div>
+			<div class="title__slider" id="slider">
+				<h2><span>C:\</span>Images</h2>
+			</div>
+			<article>
+				<div class="slider">
+					<div class="slider__conteiner">
+						<button class="slider__previous"></button>
+						<div class="slider__list">
+							<div class="slider__element">
+								<div class="slider__img">
+									<img src="img/img2.png">
+								</div>
+							</div>
+							<div class="slider__element">
+								<div class="slider__img">
+									<img src="img/img3.png">
+								</div>
+							</div>
+							<div class="slider__element">
+								<div class="slider__img">
+									<img src="img/img4.png">
+								</div>
+							</div>
+							<div class="slider__element">
+								<div class="slider__img">
+									<img src="img/img5.png">
+								</div>
+							</div>
+						</div>
+						<button class="slider__next"></button>
+					</div>
+					<div role="tablist" class="slider__indicators"></div>
+				</div>
+				</article>
+        </section>
+        <footer class="footer">
+			<div class="footer__conteiner">
+				<a href="#home"><img src="img/logo.png"></a>
+				<ul>
+					<li><a href="https://twitter.com/ItSuyai">Twitter</a></li>
+					<li><a href="https://github.com/ItSuyai">GitHub</a></li>
+					<!--<li><a href="">Linkedin</a></li>-->
+				</ul>
+				<p><i>© 2022 Federico Sarmiento</i></p>
+			</div>
+		</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
